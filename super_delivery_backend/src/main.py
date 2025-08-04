@@ -15,6 +15,7 @@ from src.routes.user import user_bp
 from src.routes.restaurant import restaurant_bp
 from src.routes.order import order_bp
 from src.routes.payment import payment_bp
+from src.routes.error_handler import error_bp
 from config import config
 
 def create_app(config_name='development'):
@@ -31,6 +32,7 @@ def create_app(config_name='development'):
     app.register_blueprint(restaurant_bp, url_prefix='/api')
     app.register_blueprint(order_bp, url_prefix='/api')
     app.register_blueprint(payment_bp, url_prefix='/api')
+    app.register_blueprint(error_bp)
     
     # Initialize database
     db.init_app(app)

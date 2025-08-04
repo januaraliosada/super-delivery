@@ -1,0 +1,752 @@
+2025-08-04 11:50:01,033 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:01,178 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:01,186 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:01,188 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:01,196 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:01,198 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:09,963 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,091 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,111 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,250 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,265 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,413 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,428 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,558 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,572 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,697 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,710 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,712 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,723 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,725 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,736 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,738 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,752 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,754 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,768 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,774 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,788 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,790 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,805 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,807 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,819 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,821 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,835 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,838 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,853 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,855 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,869 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,871 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,887 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,889 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,904 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,907 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,920 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,922 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,936 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,938 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,953 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,955 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,971 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,974 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:10,988 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:10,991 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,013 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,162 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,181 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,342 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,361 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,363 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,376 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,378 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,390 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,539 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,554 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,556 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,571 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,573 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,590 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,592 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,607 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,609 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,624 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,626 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,638 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,641 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,655 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,657 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,670 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,672 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,686 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,689 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,704 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,706 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,720 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,723 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,737 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,740 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,754 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,757 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,772 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,774 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,787 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,789 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,804 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,806 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,821 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,823 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,839 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,841 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,856 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,858 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,873 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,875 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,926 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,928 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,940 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,942 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,954 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,957 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,971 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,974 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:11,987 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:11,989 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,003 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,005 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,020 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,022 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,037 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,039 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,055 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,057 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,070 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,072 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,088 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,090 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,102 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,104 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,121 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,123 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,137 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,140 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,308 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,311 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,325 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,327 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,340 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,342 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,356 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,358 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,373 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,375 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,390 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,392 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,407 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,409 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,422 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,424 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,438 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,440 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,456 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,459 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,474 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,477 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,491 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,493 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,506 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,508 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,523 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,525 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,542 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,544 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,559 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,561 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,576 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,578 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,594 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,596 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,608 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,611 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,625 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,627 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,642 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,644 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,658 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,660 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,673 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,675 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,688 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,690 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,706 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,708 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,720 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,722 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,737 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,739 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,753 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,755 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,773 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,775 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,788 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,790 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,820 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,823 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,839 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,841 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,854 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,857 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:12,871 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:12,873 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,049 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,051 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,064 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,066 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,078 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,080 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,092 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,094 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,106 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,108 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,122 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,124 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,137 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,139 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,154 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,156 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,170 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,172 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,190 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,192 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,205 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,207 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,220 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,222 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,237 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,239 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,253 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,255 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,269 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,270 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,283 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,285 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,297 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,299 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,311 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,313 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,324 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,326 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,340 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,342 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,355 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,357 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,372 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,374 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,388 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,390 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,405 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,407 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,423 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,425 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,438 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,440 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,455 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,457 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,472 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,474 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,489 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,491 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,505 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,507 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,522 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,524 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,539 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,541 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,554 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,556 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,570 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,573 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,587 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,589 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,603 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,605 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,620 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,621 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,635 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,637 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,657 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,659 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,681 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,683 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,694 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,695 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,706 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,708 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,720 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,722 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,736 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,738 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,753 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,755 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,769 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,772 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,785 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,787 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,802 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,804 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,818 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,820 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,836 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,838 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,853 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,855 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,869 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,871 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,887 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,889 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,905 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,907 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,921 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,924 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,938 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,940 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,954 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,956 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,970 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,972 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:13,986 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:13,987 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,002 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,004 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,018 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,020 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,037 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,039 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,055 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,057 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,071 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,073 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,089 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,091 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,103 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,105 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,119 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,121 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,136 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,138 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,154 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,156 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,171 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,173 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,187 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,190 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,203 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,205 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,220 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,222 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,236 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,238 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,253 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,255 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,268 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,270 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,285 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,287 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,300 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,302 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,315 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,317 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,330 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,331 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,344 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,346 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,356 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,358 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,372 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,374 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,388 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,390 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,405 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,407 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,420 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,423 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,437 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,439 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,453 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,455 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,469 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,471 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,485 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,487 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,502 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,504 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,519 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,521 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,535 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,537 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,552 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,553 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,567 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,569 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,581 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,582 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,593 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,595 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,609 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,611 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,622 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,624 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,637 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,640 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,654 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,656 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,673 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,675 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,687 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,689 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,703 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,705 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,720 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,722 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,737 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,739 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,752 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,754 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,765 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,767 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,779 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,781 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,792 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,793 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,804 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,806 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,821 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,823 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,836 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,837 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,851 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,853 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,869 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,871 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,885 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,887 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,902 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,904 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,916 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,918 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,930 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,932 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,943 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,945 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,956 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,957 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,970 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,973 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:14,986 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:14,988 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,002 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,004 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,019 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,021 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,037 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,039 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,056 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,058 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,070 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,073 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,086 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,088 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,102 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,104 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,117 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,119 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,133 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,134 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,146 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,148 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,160 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,162 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,173 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,175 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,187 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,190 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,203 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,205 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,218 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,220 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,237 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,239 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,254 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,256 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,270 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,272 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,288 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,290 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,303 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,305 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,319 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,321 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,335 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,337 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,350 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,352 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,364 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,366 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,377 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,378 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,390 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,392 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,403 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,405 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,419 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,421 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,435 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,438 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,452 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,454 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,468 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,470 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,485 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,486 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,498 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,500 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,512 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,514 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,525 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,527 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,539 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,541 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,553 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,554 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,569 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,571 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,585 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,587 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,598 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,600 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,612 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,614 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,626 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,627 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,638 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,640 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,654 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,655 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,669 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,670 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,681 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,682 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,695 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,697 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,708 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,710 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,723 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,725 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,737 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,739 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,754 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,756 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,769 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,771 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,784 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,786 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,797 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,800 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,812 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,814 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,825 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,827 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,838 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,840 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,852 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,854 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,867 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,869 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,882 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,884 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,894 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,896 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,907 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,909 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,920 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,922 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,934 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,936 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,948 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,950 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,964 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,966 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,977 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,979 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:15,990 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:15,992 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,003 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,005 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,019 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,021 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,036 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,038 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,052 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,054 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,066 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,068 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,081 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,083 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,093 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,095 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,105 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,107 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,120 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,122 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,137 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,139 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,153 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,155 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,169 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,171 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,184 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,186 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,198 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,200 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,211 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,213 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,224 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,226 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,238 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,240 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,254 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,256 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,269 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,271 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,282 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,284 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,297 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,299 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,310 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,312 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,323 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,325 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,338 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,341 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,353 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,355 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,370 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,372 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,386 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,388 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,403 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,405 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,420 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,422 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,436 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:16,438 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:16,451 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,473 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,486 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,488 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,502 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,504 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,516 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,518 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,532 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,534 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,545 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,547 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,557 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,559 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,570 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,572 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,586 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,588 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,601 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,603 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,615 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,617 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,627 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,629 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,640 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,642 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,654 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,656 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,669 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,672 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,689 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,691 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,705 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,707 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,720 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,722 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,735 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,737 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,748 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,750 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,761 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,763 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,773 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,775 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,788 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,790 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,803 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,805 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,818 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,820 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,834 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,836 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,848 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,850 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,862 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,864 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,874 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,876 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,888 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,890 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,902 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,903 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,914 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,916 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,929 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,931 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,944 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,946 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,958 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,960 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:17,970 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:17,972 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,040 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,043 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,059 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,061 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,076 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,078 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,092 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,094 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,107 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,109 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,121 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,124 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,139 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,141 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,156 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,158 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,170 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,172 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,186 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,188 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,202 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,204 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,218 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,220 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,233 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,235 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,249 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,251 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,265 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,267 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,277 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,279 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,291 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,293 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,304 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,306 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,319 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,320 - src.routes.error_handler - INFO - Retrieved 0 restaurants
+2025-08-04 11:50:31,333 - src.routes.error_handler - INFO - Fetching restaurants
+2025-08-04 11:50:31,335 - src.routes.error_handler - INFO - Retrieved 0 restaurants

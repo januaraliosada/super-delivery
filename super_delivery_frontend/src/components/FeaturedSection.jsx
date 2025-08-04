@@ -1,9 +1,17 @@
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button.jsx';
 import RestaurantCard from './RestaurantCard.jsx';
+import { LoadingSpinner } from '@/components/ui/loading-spinner.jsx';
+import { useApi } from '@/hooks/useApi.js';
+import { useToast } from '@/hooks/useToast.js';
 import '../App.css';
 
-const FeaturedSection = ({ title, restaurants }) => {
+const FeaturedSection = ({ title, restaurants: propRestaurants, filter }) => {
+  const [restaurants, setRestaurants] = useState([]);
+  const { get, loading, error } = useApi();
+  const { toast } = useToast();
+
   const sampleRestaurants = [
     {
       id: 1,
@@ -43,7 +51,50 @@ const FeaturedSection = ({ title, restaurants }) => {
     }
   ];
 
-  const displayRestaurants = restaurants || sampleRestaurants;
+  useEffect(() => {
+    const fetchRestaurants = async () => {
+      if (propRestaurants) {
+        setRestaurants(propRestaurants);
+        return;
+      }
+
+      try {
+        let endpoint = '/restaurants';
+        if (filter) {
+          endpoint += `?${filter}`;
+        }
+        
+        const data = await get(endpoint);
+        setRestaurants(data.restaurants || sampleRestaurants);
+      } catch (err) {
+        console.error('Error fetching restaurants:', err);
+        setRestaurants(sampleRestaurants);
+        toast({
+          variant: "destructive",
+          title: "Error loading restaurants",
+          description: "Using sample data instead. Please check your connection.",
+        });
+      }
+    };
+
+    fetchRestaurants();
+  }, [propRestaurants, filter, get, toast]);
+
+  const displayRestaurants = restaurants.length > 0 ? restaurants : sampleRestaurants;
+
+  if (loading && restaurants.length === 0) {
+    return (
+      <section className="py-8">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-2xl font-bold text-gray-900">{title || "Featured Restaurants"}</h2>
+        </div>
+        <div className="flex justify-center items-center py-12">
+          <LoadingSpinner size="large" />
+          <span className="ml-3 text-gray-600">Loading restaurants...</span>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="py-8">
@@ -58,6 +109,13 @@ const FeaturedSection = ({ title, restaurants }) => {
           </Button>
         </div>
       </div>
+
+      {error && (
+        <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+          <p className="text-red-600">Error loading restaurants: {error}</p>
+          <p className="text-sm text-red-500 mt-1">Showing sample data instead.</p>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {displayRestaurants.map((restaurant) => (

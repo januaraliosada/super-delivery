@@ -1,8 +1,9 @@
-import { Search, ShoppingCart, User, MapPin } from 'lucide-react';
+import { ShoppingCart, User, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button.jsx';
+import SearchBar from './SearchBar.jsx';
 import '../App.css';
 
-const Header = () => {
+const Header = ({ onSearchResults }) => {
   return (
     <header className="bg-green-600 text-white shadow-lg">
       <div className="container mx-auto px-4 py-4">
@@ -19,16 +20,7 @@ const Header = () => {
           </div>
 
           {/* Search Bar */}
-          <div className="flex-1 max-w-md mx-4">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
-              <input
-                type="text"
-                placeholder="Search restaurants, cuisines, or dishes..."
-                className="w-full pl-10 pr-4 py-2 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-300"
-              />
-            </div>
-          </div>
+          <SearchBar onResults={onSearchResults} />
 
           {/* Action Buttons */}
           <div className="flex items-center space-x-4">
