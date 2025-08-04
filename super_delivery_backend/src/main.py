@@ -5,17 +5,21 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from flask import Flask, send_from_directory
 from flask_cors import CORS
-from src.models.user import db
+from src.models.user import User, db
 from src.models.restaurant import Restaurant
 from src.models.menu_item import MenuItem
 from src.models.order import Order
 from src.models.order_item import OrderItem
 from src.models.review import Review
+from src.models.cart import Cart, CartItem
 from src.routes.user import user_bp
 from src.routes.restaurant import restaurant_bp
 from src.routes.order import order_bp
 from src.routes.payment import payment_bp
 from src.routes.error_handler import error_bp
+from src.routes.order_tracking import order_tracking_bp
+from src.routes.auth import auth_bp
+from src.routes.cart import cart_bp
 from config import config
 
 def create_app(config_name='development'):
@@ -32,6 +36,9 @@ def create_app(config_name='development'):
     app.register_blueprint(restaurant_bp, url_prefix='/api')
     app.register_blueprint(order_bp, url_prefix='/api')
     app.register_blueprint(payment_bp, url_prefix='/api')
+    app.register_blueprint(order_tracking_bp, url_prefix='/api')
+    app.register_blueprint(auth_bp, url_prefix='/api')
+    app.register_blueprint(cart_bp, url_prefix='/api')
     app.register_blueprint(error_bp)
     
     # Initialize database

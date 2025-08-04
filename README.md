@@ -19,6 +19,7 @@ This repository contains the source code for the **SUPER DELIVERY** web applicat
 8.  [Contributing](#contributing)
 9.  [License](#license)
 10. [Recent Improvements](#recent-improvements)
+11. [Future Improvements and Remaining Limitations](#future-improvements-and-remaining-limitations)
 
 ## 1. Introduction
 
@@ -33,7 +34,9 @@ SUPER DELIVERY aims to revolutionize the food delivery experience by offering a 
 *   **Real-time Order Tracking:** Monitor order status from preparation to delivery.
 *   **Order Management:** View past orders and reorder favorite meals.
 *   **Restaurant & Driver Reviews:** Provide feedback on food quality and delivery service.
-*   **Secure Payment Options:** (Implemented) Integration with popular payment gateways.
+*   **Secure Payment Options:** Integration with popular payment gateways.
+*   **User Authentication:** Secure login, registration, and profile management.
+*   **Persistent Cart:** Shopping cart that saves items across sessions.
 
 ### Restaurant Owner Features:
 
@@ -72,7 +75,7 @@ SUPER DELIVERY is built using a robust and scalable technology stack:
 
 *   **Flask:** A lightweight Python web framework for building robust APIs.
 *   **SQLAlchemy:** An SQL toolkit and Object-Relational Mapper (ORM) that provides a flexible way to interact with databases.
-*   **PostgreSQL:** (Implemented for production) A powerful, open-source object-relational database system.
+*   **PostgreSQL:** (Recommended for production) A powerful, open-source object-relational database system.
 *   **SQLite:** A lightweight, file-based SQL database used for development and testing.
 *   **Flask-CORS:** A Flask extension for handling Cross-Origin Resource Sharing (CORS), enabling secure communication between frontend and backend.
 
@@ -81,8 +84,9 @@ SUPER DELIVERY is built using a robust and scalable technology stack:
 *   **Git:** Version control system for tracking changes and collaboration.
 *   **GitHub:** Web-based platform for version control and collaborative software development.
 *   **pnpm:** A fast, disk space efficient package manager for JavaScript.
-*   **Stripe:** (Implemented) For secure payment processing.
-*   **Gunicorn:** (Implemented) A production-ready WSGI HTTP server for Python web applications.
+*   **Stripe:** For secure payment processing.
+*   **Gunicorn:** A production-ready WSGI HTTP server for Python web applications.
+*   **PyJWT:** For JSON Web Token (JWT) authentication.
 
 ## 4. Project Structure
 
@@ -232,7 +236,7 @@ For production deployment, the React frontend needs to be built and served by th
 
 ## 6. API Endpoints
 
-The backend provides a comprehensive set of RESTful API endpoints to manage users, restaurants, menu items, orders, reviews, and payments.
+The backend provides a comprehensive set of RESTful API endpoints to manage users, restaurants, menu items, orders, reviews, payments, authentication, cart, and order tracking.
 
 ### User Management:
 
@@ -264,12 +268,32 @@ The backend provides a comprehensive set of RESTful API endpoints to manage user
 *   `POST /api/orders/<int:order_id>/review`: Add a review for a delivered order.
 *   `GET /api/orders/available`: Retrieve a list of orders available for pickup by drivers.
 
-### Payment Management (New):
+### Payment Management:
 
 *   `POST /api/create-payment-intent`: Creates a Stripe payment intent for an order.
 *   `POST /api/confirm-payment`: Confirms payment and updates order status.
 *   `POST /api/webhook`: Handles Stripe webhooks for payment status updates.
 *   `GET /api/payment-methods`: Returns available payment methods.
+
+### Authentication:
+
+*   `POST /api/register`: Register a new user.
+*   `POST /api/login`: Authenticate user and return JWT token.
+*   `GET /api/profile`: Retrieve user profile based on JWT token.
+
+### Cart Management:
+
+*   `GET /api/cart`: Retrieve user's current cart.
+*   `POST /api/cart/add`: Add item to cart.
+*   `PUT /api/cart/update/<int:cart_item_id>`: Update cart item quantity.
+*   `DELETE /api/cart/remove/<int:cart_item_id>`: Remove item from cart.
+*   `DELETE /api/cart/clear`: Clear all items from cart.
+*   `GET /api/cart/count`: Get total number of items in cart.
+
+### Order Tracking:
+
+*   `GET /api/orders/<int:order_id>/track`: Get real-time status of a specific order.
+*   `GET /api/orders/active`: Get all active orders for a user.
 
 ## 7. Database Schema
 
@@ -281,6 +305,8 @@ The database schema is designed to support the core functionalities of the food 
 *   **Order:** Tracks customer orders, including status, delivery address, pricing, and associated customer, restaurant, and driver. Now includes enhanced payment fields (`payment_method`, `payment_status`, `payment_transaction_id`).
 *   **OrderItem:** Represents individual items within an order, linking to menu items and specifying quantity and customizations.
 *   **Review:** Stores customer feedback and ratings for restaurants and delivery drivers.
+*   **Cart:** Stores user's active shopping cart, linked to a user and a restaurant.
+*   **CartItem:** Represents individual items within a cart, linking to menu items and specifying quantity and customizations.
 
 For detailed schema definitions, refer to the model files in `super_delivery_backend/src/models/`.
 
@@ -300,28 +326,65 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 10. Recent Improvements
 
-This section highlights the significant enhancements made to the Super Delivery system, primarily focusing on Phase 1 of the resolution plan.
+This section highlights the significant enhancements made to the Super Delivery system across three phases of development.
 
-### Secure Payment Options
+### Phase 1: Core Functionality and Stability Enhancements
 
-*   **Stripe Integration**: The application now supports secure online payments through Stripe. This includes:
-    *   API endpoints for creating payment intents, confirming payments, and handling Stripe webhooks.
-    *   The `Order` model has been updated to track payment method, status, and transaction IDs.
-*   **Payment Methods API**: A new API endpoint (`/api/payment-methods`) provides a list of available payment options, including credit/debit card and cash on delivery.
+*   **Secure Payment Options**: Integrated Stripe for secure online payments, including API endpoints for payment intents, confirmations, and webhooks. The `Order` model was updated to track payment details.
+*   **Payment Methods API**: Added a new API endpoint (`/api/payment-methods`) to list available payment options (credit/debit card, cash on delivery).
+*   **Scalability and Production Readiness**: Configured the backend to use PostgreSQL for production environments and implemented Gunicorn for robust WSGI server deployment. Refactored the Flask application to use an application factory pattern and introduced `config.py` for environment-based configuration.
+*   **New Files**: `super_delivery_backend/src/routes/payment.py`, `super_delivery_backend/config.py`, `super_delivery_backend/wsgi.py`, `super_delivery_backend/gunicorn.conf.py`.
 
-### Scalability and Production Readiness
+### Phase 2: User Experience and System Reliability Improvements
 
-*   **PostgreSQL Support**: The backend is now configured to use PostgreSQL for production environments, offering better scalability and data integrity compared to SQLite.
-*   **Gunicorn Deployment**: The application can now be deployed using Gunicorn, a production-ready WSGI server, ensuring better performance and stability under load.
-*   **Configuration Management**: A new `config.py` file provides environment-based configuration, making it easier to manage settings for development, testing, and production.
-*   **Application Factory Pattern**: The Flask application has been refactored to use an application factory pattern, improving modularity and testability.
+*   **Enhanced Search Functionality**: Implemented a real-time `SearchBar` component with debounced search, auto-complete suggestions, and robust error handling.
+*   **Interactive Order Management**: Developed a comprehensive order modal for menu browsing and placement, featuring quantity controls, client-side form validation, and real-time order summaries.
+*   **Enhanced User Interface Components**: Introduced toast notifications for user feedback, loading spinners for better visual cues, and improved responsive design.
+*   **Backend Error Handling System**: Created a centralized error handling blueprint with custom API error classes, structured logging, and graceful degradation mechanisms.
+*   **Enhanced API Endpoints**: Improved restaurant routes with better error handling, pagination, and enhanced search capabilities with multiple criteria.
 
-### New Files Added
+### Phase 3: Advanced Features and User Authentication
 
-*   `super_delivery_backend/src/routes/payment.py`: Contains the payment-related API endpoints.
-*   `super_delivery_backend/config.py`: Manages application configurations for different environments.
-*   `super_delivery_backend/wsgi.py`: The WSGI entry point for Gunicorn deployment.
-*   `super_delivery_backend/gunicorn.conf.py`: Gunicorn server configuration file.
+*   **Real-Time Order Tracking System**: Implemented backend API endpoints (`order_tracking.py`) for order status management and frontend components (`OrderTracking.jsx`, `ActiveOrders.jsx`) for real-time status display, estimated delivery times, and comprehensive order visibility.
+*   **User Authentication and Authorization**: Developed a secure authentication system using JWT for stateless authentication. The `auth.py` blueprint provides endpoints for registration, login, logout, and profile management. Frontend includes a sophisticated `AuthModal` and `AuthContext` for state management.
+*   **Persistent Cart Management**: Introduced dedicated database models (`Cart`, `CartItem`) and backend API endpoints (`cart.py`) for persistent shopping cart functionality. Frontend includes a comprehensive `CartModal` and `CartContext` for managing cart items, quantities, customizations, and real-time price calculations.
+*   **Technical Architecture**: Significant database schema enhancements for cart and order tracking, adhering to RESTful API principles, and utilizing React context for efficient frontend state management.
 
-These improvements lay a strong foundation for future development, enhancing the application's core functionality and preparing it for real-world usage.
+## 11. Future Improvements and Remaining Limitations
+
+While significant progress has been made, the Super Delivery system can be further enhanced with the following improvements and addresses some remaining limitations:
+
+### Immediate Enhancement Opportunities:
+
+*   **Database Schema Resolution**: Ensure robust database schema management for production deployment, especially concerning foreign key dependencies and initial data seeding.
+*   **Comprehensive Error Logging**: Implement more detailed and centralized error logging for easier debugging and monitoring in production environments.
+*   **Advanced Cart Features**: Add functionalities such as saved items, wish lists, and promotional code support to enhance the shopping experience.
+*   **Real-time Notifications**: Enhance the order tracking system with real-time push notifications for status updates, beyond polling.
+*   **Delivery Driver Integration**: Integrate with actual delivery driver systems or a dedicated driver app for real-time GPS tracking and efficient dispatch.
+*   **Social Media Login**: Implement social media login options (e.g., Google, Facebook) for user convenience.
+*   **Two-Factor Authentication (2FA)**: Enhance security with 2FA for user accounts.
+*   **Advanced Profile Management**: Allow users to manage saved addresses, payment methods, and dietary preferences.
+*   **Bulk Ordering Capabilities**: For business or large family orders.
+
+### Long-term Strategic Developments:
+
+*   **Mobile Application Development**: Create native iOS and Android applications for a richer mobile experience.
+*   **Advanced Analytics and Reporting**: Implement dashboards for restaurant owners and administrators to track sales, popular dishes, and delivery performance.
+*   **Integration with External Services**: Connect with inventory management systems, CRM platforms, and third-party logistics providers.
+*   **Machine Learning Capabilities**: Introduce ML for personalized restaurant/dish recommendations, demand forecasting, and optimized delivery routes.
+*   **Restaurant-Specific Features**: Implement features like dynamic pricing, specific delivery zones, and advanced menu customization options for restaurant owners.
+*   **Comprehensive Testing**: Develop extensive unit, integration, and end-to-end tests to ensure system stability and reliability.
+*   **Caching Mechanisms**: Implement caching at various layers (database, API, frontend) to improve performance and reduce load.
+*   **Scalability Enhancements**: Further optimize the backend for high traffic, including load balancing and database replication strategies.
+
+### Current Limitations:
+
+*   **Initial Data Population**: The database currently lacks initial data for restaurants, menus, and users, requiring manual population for full functionality. This was a challenge during testing and needs a robust seeding mechanism.
+*   **Payment Gateway Configuration**: While Stripe is integrated, it requires actual API keys and webhook setup for live transactions.
+*   **Limited Admin/Driver Features**: The current focus has been on customer-facing features. Admin and driver functionalities are conceptualized but not fully implemented.
+*   **No Real-time Communication**: Order tracking currently relies on polling; a WebSocket-based solution would provide true real-time updates.
+*   **No User Interface for Order Creation (Admin/Restaurant)**: Orders can only be created via API for now, a UI for restaurant owners to manage incoming orders is needed.
+*   **No Password Reset/Forgot Password Functionality**: This is a critical security feature missing from the authentication system.
+
+This document will be updated as new features are implemented and the system evolves.
 
