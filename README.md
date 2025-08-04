@@ -18,6 +18,7 @@ This repository contains the source code for the **SUPER DELIVERY** web applicat
 7.  [Database Schema](#database-schema)
 8.  [Contributing](#contributing)
 9.  [License](#license)
+10. [Recent Improvements](#recent-improvements)
 
 ## 1. Introduction
 
@@ -32,7 +33,7 @@ SUPER DELIVERY aims to revolutionize the food delivery experience by offering a 
 *   **Real-time Order Tracking:** Monitor order status from preparation to delivery.
 *   **Order Management:** View past orders and reorder favorite meals.
 *   **Restaurant & Driver Reviews:** Provide feedback on food quality and delivery service.
-*   **Secure Payment Options:** (Planned for future development) Integration with popular payment gateways.
+*   **Secure Payment Options:** (Implemented) Integration with popular payment gateways.
 
 ### Restaurant Owner Features:
 
@@ -71,7 +72,8 @@ SUPER DELIVERY is built using a robust and scalable technology stack:
 
 *   **Flask:** A lightweight Python web framework for building robust APIs.
 *   **SQLAlchemy:** An SQL toolkit and Object-Relational Mapper (ORM) that provides a flexible way to interact with databases.
-*   **SQLite:** A lightweight, file-based SQL database used for development and testing. (Recommended to use PostgreSQL or MySQL for production).
+*   **PostgreSQL:** (Implemented for production) A powerful, open-source object-relational database system.
+*   **SQLite:** A lightweight, file-based SQL database used for development and testing.
 *   **Flask-CORS:** A Flask extension for handling Cross-Origin Resource Sharing (CORS), enabling secure communication between frontend and backend.
 
 ### Other Tools & Libraries:
@@ -79,6 +81,8 @@ SUPER DELIVERY is built using a robust and scalable technology stack:
 *   **Git:** Version control system for tracking changes and collaboration.
 *   **GitHub:** Web-based platform for version control and collaborative software development.
 *   **pnpm:** A fast, disk space efficient package manager for JavaScript.
+*   **Stripe:** (Implemented) For secure payment processing.
+*   **Gunicorn:** (Implemented) A production-ready WSGI HTTP server for Python web applications.
 
 ## 4. Project Structure
 
@@ -94,10 +98,12 @@ SUPERDELIVERY/
 │   │   ├── database/             # SQLite database file (app.db)
 │   │   └── main.py               # Main Flask application entry point
 │   ├── venv/                     # Python Virtual Environment
+│   ├── config.py                 # Environment-based configuration
+│   ├── wsgi.py                   # WSGI entry point for production
+│   ├── gunicorn.conf.py          # Gunicorn configuration
 │   └── requirements.txt          # Python dependencies
 ├── super_delivery_frontend/      # React Frontend Application
 │   ├── public/
-│   ├── src/
 │   │   ├── assets/               # Static assets like images
 │   │   ├── components/           # Reusable React components
 │   │   ├── App.jsx               # Main React App component
@@ -124,6 +130,7 @@ Before you begin, ensure you have the following installed on your system:
     npm install -g pnpm
     ```
 *   **Git:** For cloning the repository.
+*   **PostgreSQL:** (Recommended for production) A robust relational database.
 
 ### Backend Setup
 
@@ -144,10 +151,11 @@ Before you begin, ensure you have the following installed on your system:
     ```
 
 4.  **Initialize the database:**
-    The Flask application will automatically create the SQLite database (`app.db`) and tables when it runs for the first time. If you modify the database models, you might need to delete the `app.db` file to recreate the database with the new schema.
+    For development with SQLite, the Flask application will automatically create the `app.db` file and tables when it runs for the first time. If you modify the database models, you might need to delete the `app.db` file to recreate the database with the new schema.
     ```bash
     rm src/database/app.db # Use with caution, this deletes all data
     ```
+    For production with PostgreSQL, ensure your PostgreSQL server is running and you have created a database and user (e.g., `super_delivery` database and `super_delivery_user` user with password `super_delivery_pass`). Update the `DATABASE_URL` environment variable or `config.py` accordingly.
 
 ### Frontend Setup
 
@@ -187,7 +195,7 @@ To run the full-stack application locally, you need to start both the backend an
 
 ### Deployment to Production
 
-For production deployment, the React frontend needs to be built and served by the Flask backend.
+For production deployment, the React frontend needs to be built and served by the Flask backend using a production-ready WSGI server like Gunicorn.
 
 1.  **Build the Frontend for Production:**
     Navigate to the `super_delivery_frontend` directory and build the React application:
@@ -211,22 +219,20 @@ For production deployment, the React frontend needs to be built and served by th
     pip freeze > requirements.txt
     ```
 
-4.  **Deploy the Full-Stack Application:**
-    The application can be deployed using a WSGI server (e.g., Gunicorn) in a production environment. For simple deployments or testing, you can run the Flask app directly. The `main.py` is configured to serve the static files from the `src/static` directory.
-
-    **Example (using Flask's built-in server for demonstration - NOT recommended for production):**
+4.  **Deploy the Full-Stack Application with Gunicorn:**
+    Navigate to the `super_delivery_backend` directory, activate the virtual environment, and run Gunicorn:
     ```bash
     cd SUPERDELIVERY/super_delivery_backend
     source venv/bin/activate
-    python src/main.py
+    gunicorn --config gunicorn.conf.py wsgi:app
     ```
-    The application will be accessible on the server's IP address and port 5000.
+    The application will be accessible on the server's IP address and port 5000 (or as configured in `gunicorn.conf.py`).
 
-    **Note:** For a robust production deployment, consider using a production-ready WSGI server like Gunicorn or uWSGI, and a reverse proxy like Nginx.
+    **Note:** For a robust production deployment, consider using a reverse proxy like Nginx in front of Gunicorn for SSL termination, load balancing, and serving static files more efficiently.
 
 ## 6. API Endpoints
 
-The backend provides a comprehensive set of RESTful API endpoints to manage users, restaurants, menu items, orders, and reviews.
+The backend provides a comprehensive set of RESTful API endpoints to manage users, restaurants, menu items, orders, reviews, and payments.
 
 ### User Management:
 
@@ -258,6 +264,13 @@ The backend provides a comprehensive set of RESTful API endpoints to manage user
 *   `POST /api/orders/<int:order_id>/review`: Add a review for a delivered order.
 *   `GET /api/orders/available`: Retrieve a list of orders available for pickup by drivers.
 
+### Payment Management (New):
+
+*   `POST /api/create-payment-intent`: Creates a Stripe payment intent for an order.
+*   `POST /api/confirm-payment`: Confirms payment and updates order status.
+*   `POST /api/webhook`: Handles Stripe webhooks for payment status updates.
+*   `GET /api/payment-methods`: Returns available payment methods.
+
 ## 7. Database Schema
 
 The database schema is designed to support the core functionalities of the food delivery application. The main entities and their relationships are as follows:
@@ -265,7 +278,7 @@ The database schema is designed to support the core functionalities of the food 
 *   **User:** Represents customers, restaurant owners, drivers, and administrators. Includes fields for authentication, personal information, and role-specific attributes.
 *   **Restaurant:** Stores information about registered restaurants, including name, address, cuisine type, ratings, and owner details.
 *   **MenuItem:** Contains details about food items offered by restaurants, such as name, description, price, category, and dietary information.
-*   **Order:** Tracks customer orders, including status, delivery address, pricing, and associated customer, restaurant, and driver.
+*   **Order:** Tracks customer orders, including status, delivery address, pricing, and associated customer, restaurant, and driver. Now includes enhanced payment fields (`payment_method`, `payment_status`, `payment_transaction_id`).
 *   **OrderItem:** Represents individual items within an order, linking to menu items and specifying quantity and customizations.
 *   **Review:** Stores customer feedback and ratings for restaurants and delivery drivers.
 
@@ -285,8 +298,30 @@ We welcome contributions to the SUPER DELIVERY project! If you'd like to contrib
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Note: A `LICENSE` file is not included in this repository by default. You may need to create one.)
 
+## 10. Recent Improvements
 
+This section highlights the significant enhancements made to the Super Delivery system, primarily focusing on Phase 1 of the resolution plan.
 
+### Secure Payment Options
 
+*   **Stripe Integration**: The application now supports secure online payments through Stripe. This includes:
+    *   API endpoints for creating payment intents, confirming payments, and handling Stripe webhooks.
+    *   The `Order` model has been updated to track payment method, status, and transaction IDs.
+*   **Payment Methods API**: A new API endpoint (`/api/payment-methods`) provides a list of available payment options, including credit/debit card and cash on delivery.
 
+### Scalability and Production Readiness
+
+*   **PostgreSQL Support**: The backend is now configured to use PostgreSQL for production environments, offering better scalability and data integrity compared to SQLite.
+*   **Gunicorn Deployment**: The application can now be deployed using Gunicorn, a production-ready WSGI server, ensuring better performance and stability under load.
+*   **Configuration Management**: A new `config.py` file provides environment-based configuration, making it easier to manage settings for development, testing, and production.
+*   **Application Factory Pattern**: The Flask application has been refactored to use an application factory pattern, improving modularity and testability.
+
+### New Files Added
+
+*   `super_delivery_backend/src/routes/payment.py`: Contains the payment-related API endpoints.
+*   `super_delivery_backend/config.py`: Manages application configurations for different environments.
+*   `super_delivery_backend/wsgi.py`: The WSGI entry point for Gunicorn deployment.
+*   `super_delivery_backend/gunicorn.conf.py`: Gunicorn server configuration file.
+
+These improvements lay a strong foundation for future development, enhancing the application's core functionality and preparing it for real-world usage.
 

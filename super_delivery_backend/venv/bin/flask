@@ -1,4 +1,4 @@
-#!/home/ubuntu/super_delivery_backend/venv/bin/python3.11
+#!/home/ubuntu/super-delivery/super_delivery_backend/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
