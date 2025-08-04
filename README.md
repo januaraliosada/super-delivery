@@ -285,10 +285,7 @@ We welcome contributions to the SUPER DELIVERY project! If you'd like to contrib
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Note: A `LICENSE` file is not included in this repository by default. You may need to create one.)
 
----
 
-**Author:** Manus AI
-**Live Application:** [https://mzhyi8cdq7qq.manus.space](https://mzhyi8cdq7qq.manus.space)
 
 
 
